@@ -1,4 +1,4 @@
-package com.chainsys.servlet;
+package com.chainsys.cricketauctionapp.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -13,8 +13,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.playingeleven.DbException;
-import com.playingeleven.dao.impl.TeamPlayerDAOImpl;
+import com.chainsys.cricketauctionapp.dao.impl.TeamPlayerDAOImpl;
+import com.chainsys.cricketauctionapp.util.DbException;
 
 /**
  * Servlet implementation class BidPlayerServlet

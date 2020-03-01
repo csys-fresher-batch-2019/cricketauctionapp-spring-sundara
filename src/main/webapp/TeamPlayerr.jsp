@@ -1,10 +1,10 @@
-<%@page import="com.playingeleven.model.Team"%>
+<%@page import="com.chainsys.cricketauctionapp.model.Team"%>
 <%@page import="com.playingeleven.dao.impl.TeamDAOImpl"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-            <%@ page import="com.playingeleven.model.TeamPlayer" %>
+            <%@ page import="com.chainsys.cricketauctionapp.model.TeamPlayer" %>
   <%@ page import="com.playingeleven.dao.impl.TeamPlayerDAOImpl" %>
-   <%@ page import="com.playingeleven.dao.dto.TeamPlayerPlayers" %>
+   <%@ page import="com.chainsys.cricketauctionapp.dao.dto.TeamPlayerPlayers" %>
   <%@ page import="java.util.List" %>
    <%@ page import="java.util.ArrayList" %>
   <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>

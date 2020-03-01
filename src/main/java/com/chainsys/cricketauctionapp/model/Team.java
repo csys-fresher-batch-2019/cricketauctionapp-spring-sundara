@@ -1,4 +1,4 @@
-package com.playingeleven.model;
+package com.chainsys.cricketauctionapp.model;
 
 public class Team {
 	private int teamId;

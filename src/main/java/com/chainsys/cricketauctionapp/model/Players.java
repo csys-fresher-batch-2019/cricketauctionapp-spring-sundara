@@ -1,4 +1,4 @@
-package com.playingeleven.model;
+package com.chainsys.cricketauctionapp.model;
 
 import java.time.LocalDate;
 

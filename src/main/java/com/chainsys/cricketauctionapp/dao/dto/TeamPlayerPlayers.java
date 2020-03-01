@@ -1,4 +1,4 @@
-package com.playingeleven.dao.dto;
+package com.chainsys.cricketauctionapp.dao.dto;
 
 public class TeamPlayerPlayers {
 	private String playerFullName;

@@ -1,4 +1,4 @@
-package logger;
+package com.chainsys.cricketauctionapp.logger;
 
 public class Logger {
 	public static Logger getInstance() {

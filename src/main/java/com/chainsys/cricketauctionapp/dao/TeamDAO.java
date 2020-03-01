@@ -1,9 +1,9 @@
-package com.playingeleven.dao;
+package com.chainsys.cricketauctionapp.dao;
 
 import java.util.ArrayList;
 
-import com.playingeleven.DbException;
-import com.playingeleven.model.Team;
+import com.chainsys.cricketauctionapp.model.Team;
+import com.chainsys.cricketauctionapp.util.DbException;
 
 public interface TeamDAO {
 	public void addTeam(String teamName, String teamOwner, String teamCoach, int amountRemaining) throws DbException;

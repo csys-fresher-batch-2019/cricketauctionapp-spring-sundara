@@ -4,9 +4,9 @@
 <%@ page import="java.util.ArrayList" %>
       <%@ page import="java.util.List" %>
       
-      <%@ page import="com.playingeleven.model.Players" %>
-  <%@ page import="com.playingeleven.dao.impl.PlayersDAOImpl" %>
-     <%@ page import="com.playingeleven.dao.dto.Batting" %>
+      <%@ page import="com.chainsys.cricketauctionapp.model.Players" %>
+  <%@ page import="com.chainsys.cricketauctionapp.dao.impl.PlayersDAOImpl" %>
+     <%@ page import="com.chainsys.cricketauctionapp.dao.dto.Batting" %>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">

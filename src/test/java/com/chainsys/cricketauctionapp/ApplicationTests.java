@@ -1,10 +1,10 @@
-package com.chainsys.libraryapp;
+package com.chainsys.cricketauctionapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LibraryappApplicationTests {
+class ApplicationTests {
 
 	@Test
 	void contextLoads() {

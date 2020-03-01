@@ -1,6 +1,6 @@
-package com.playingeleven.dao;
+package com.chainsys.cricketauctionapp.dao;
 
-import com.playingeleven.DbException;
+import com.chainsys.cricketauctionapp.util.DbException;
 
 public interface CareerDAO {
 

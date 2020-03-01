@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-      <%@ page import="com.playingeleven.model.Players" %>   
-  <%@ page import="com.playingeleven.dao.impl.PlayersDAOImpl"%>  
+      <%@ page import="com.chainsys.cricketauctionapp.model.Players" %>   
+  <%@ page import="com.chainsys.cricketauctionapp.dao.impl.PlayersDAOImpl"%>  
     <%@ page import="java.util.ArrayList" %>
       <%@ page import="java.util.List" %>
       <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>

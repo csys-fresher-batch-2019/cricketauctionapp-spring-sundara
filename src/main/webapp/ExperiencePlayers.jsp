@@ -37,14 +37,21 @@ th, td {
 PlayersDAOImpl impl = new PlayersDAOImpl();
 impl.listOfExperiencedPlayers();
 ArrayList<Experience> ExperiencePlayers = impl.listOfExperiencedPlayers();
-for (Experience experience : ExperiencePlayers) {
-	%>	<tr><td><img src="assets/images/<%=experience.getPlayerImage()%>" height='196px' width='160px' ></img></td>
-	<td><%=experience.getPlayerFullName() %></td>
-    <td><%=experience.getRoleName() %></td>
-	<td><%=experience.getMatches() %></td>
-	<td><%=experience.getPlayerId() %></td>	
-</tr>
-<%} %>
+%>
+<c:set var="a" value="<%=ExperiencePlayers%>"></c:set>
+			<c:forEach items="${a}" var="experience">
+				<tr>
+
+					<td><img src="assets/images/${experience.playerImage}" height='196px' width='160px' ></td>
+         
+					<td>${experience.playerFullName}</td>
+					<td>${experience.roleName}</td>
+					<td>${experience.matches}</td>
+					<td>${experience.playerId}</td>
+					
+
+				</tr>
+			</c:forEach>
 </table>
 </body>
 </html>
